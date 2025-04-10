@@ -40,7 +40,7 @@ def genereate_images_from_prompt(
 
 
     #edit the prompt
-    prompt = "Generate avatar of " + prompt
+    prompt = "Generate avatar/profile picture of " + prompt
     # Generate the latent vectors using diffusion
     latents = sd.generate_latents(
         prompt,
